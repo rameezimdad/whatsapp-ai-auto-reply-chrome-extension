@@ -6,7 +6,7 @@ Built for shops, clinics, restaurants, online stores, salons, property dealers, 
 
 [![Version](https://img.shields.io/badge/version-1.12.1-0074D9)](https://github.com/rameezimdad/whatsapp-ai-auto-reply-chrome-extension/releases/latest)
 [![Chrome](https://img.shields.io/badge/Chrome-Manifest%20V3-001f3f?logo=googlechrome&logoColor=white)](#install-step-by-step)
-[![Website](https://img.shields.io/badge/Website-WA%20AI%20Reply-0074D9)](https://rameezimdad.github.io/whatsapp-ai-auto-reply-chrome-extension/)
+[![Website](https://img.shields.io/badge/Website-WA%20AI%20Reply-0074D9)](https://rameezscripts.com/wa-ai-reply.php)
 [![WhatsApp](https://img.shields.io/badge/Licence%20key-WhatsApp-25D366?logo=whatsapp&logoColor=white)](https://wa.me/923435347417)
 
 ![WhatsApp AI auto reply: the AI reply waits in the Reply to check panel next to the customer chat](docs/img/whatsapp-ai-reply-check-before-send.png)
@@ -17,7 +17,7 @@ Built for shops, clinics, restaurants, online stores, salons, property dealers, 
 
 The extension needs a **licence key** to work. One key works on one computer. Get your key on WhatsApp: https://wa.me/923435347417
 
-Website: https://rameezimdad.github.io/whatsapp-ai-auto-reply-chrome-extension/
+Website: https://rameezscripts.com/wa-ai-reply.php
 
 ## Contents
 
