@@ -1,36 +1,56 @@
-# WA AI Reply - AI Auto Reply Chrome Extension for WhatsApp Web
+# WhatsApp AI Auto Reply Chrome Extension (WA AI Reply)
 
-**WA AI Reply** is a Chrome extension that writes AI replies to your customer messages on WhatsApp Web. It uses Claude, ChatGPT, Gemini or Grok with your own API key, answers from your own business information, and puts every reply in front of you to check before it is sent.
+**WA AI Reply** is a WhatsApp AI auto reply Chrome extension for WhatsApp Web. ChatGPT, Claude, Gemini or Grok writes replies to your customer messages from your own business info, and you check every reply before you press Send. An AI chatbot for business that works inside the WhatsApp Web you already use: no new number and no WhatsApp Business API needed.
 
 Built for shops, clinics, restaurants, online stores, salons, property dealers, travel agents and any business that answers the same customer questions on WhatsApp every day.
 
-[![Version](https://img.shields.io/badge/version-1.12.0-0074D9)](https://github.com/rameezimdad/WA-AI-Reply/releases/latest)
+[![Version](https://img.shields.io/badge/version-1.12.0-0074D9)](https://github.com/rameezimdad/whatsapp-ai-auto-reply-chrome-extension/releases/latest)
 [![Chrome](https://img.shields.io/badge/Chrome-Manifest%20V3-001f3f?logo=googlechrome&logoColor=white)](#install-step-by-step)
-[![WhatsApp](https://img.shields.io/badge/Contact-WhatsApp-25D366?logo=whatsapp&logoColor=white)](https://wa.me/923435347417)
+[![Website](https://img.shields.io/badge/Website-WA%20AI%20Reply-0074D9)](https://rameezimdad.github.io/whatsapp-ai-auto-reply-chrome-extension/)
+[![WhatsApp](https://img.shields.io/badge/Licence%20key-WhatsApp-25D366?logo=whatsapp&logoColor=white)](https://wa.me/923435347417)
 
-![WA AI Reply review panel next to a customer chat](images/1-review.png)
+![WhatsApp AI auto reply: the AI reply waits in the Reply to check panel next to the customer chat](docs/img/whatsapp-ai-reply-check-before-send.png)
 
 ## Download
 
-**[Download wa-ai-reply-v1.12.0.zip](https://github.com/rameezimdad/WA-AI-Reply/releases/latest/download/wa-ai-reply-v1.12.0.zip)**
+**[Download wa-ai-reply-v1.12.0.zip](https://github.com/rameezimdad/whatsapp-ai-auto-reply-chrome-extension/releases/latest/download/wa-ai-reply-v1.12.0.zip)** (Chrome, Edge, Brave on Windows, macOS, Linux)
 
 The extension needs a **licence key** to work. One key works on one computer. Get your key on WhatsApp: https://wa.me/923435347417
+
+Website: https://rameezimdad.github.io/whatsapp-ai-auto-reply-chrome-extension/
+
+## Contents
+
+- [How the WhatsApp AI auto reply works](#how-the-whatsapp-ai-auto-reply-works)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Install step by step](#install-step-by-step)
+- [Set up step by step](#set-up-step-by-step)
+- [Update to a new version](#update-to-a-new-version)
+- [Troubleshooting](#troubleshooting)
+- [FAQ](#faq)
+
+## How the WhatsApp AI auto reply works
+
+1. **A customer writes** on WhatsApp: a text, a voice note or a photo, in any language.
+2. **The AI writes the reply** from your business info, your knowledge base and what it remembers about that customer.
+3. **You check and send.** The reply waits in a small panel on WhatsApp Web. Edit it if you like, then press Send or Skip.
 
 ## Features
 
 | Feature | What it does |
 |---|---|
 | AI replies you approve | The AI writes the reply, you check or edit it and press Send |
-| Your own AI | Claude, ChatGPT, Gemini or Grok with your own API key, or your own server |
+| ChatGPT, Claude, Gemini, Grok | Use your own API key, or your own server |
 | Business info | Products, prices, timings, delivery, payment and returns, 22 business types ready |
 | Knowledge base | Facts the AI quotes exactly, with "always read" pins and learning from your answers |
-| Any language | Replies in the customer's language: English, Urdu, Roman Urdu, Arabic, Hindi and more |
+| Any language | Replies in Urdu, Roman Urdu, Arabic, Hindi, English and more |
 | Voice notes and photos | Understands voice notes and pictures customers send |
-| Quick replies | Price lists, bank details, location and files, sent when a customer asks |
-| Customer memory | Notes, tags and language per customer, read before every reply |
-| Orders | Picks up orders from the chat and can send them to your Google Sheet |
-| MCP tools | Connect your own tools so the AI can check stock, bookings or order status |
-| Safety | Daily limits, working hours, opt-out words, a person takes over when asked |
+| Quick replies with files | Price lists, bank details, location and PDFs, sent when a customer asks |
+| Customer memory | Notes, tags and language per customer, read before every reply (a light WhatsApp CRM) |
+| Orders | Picks up orders from the chat and sends them to your Google Sheet |
+| MCP tools | The AI can check live stock, bookings or order status from your own system |
+| Safety limits | Daily limits, working hours, opt-out words, a person takes over when asked |
 | AI budget | Monthly spending limit for your AI key |
 | Dashboard | Today's replies, chats that need you, new orders and AI cost |
 
@@ -38,9 +58,11 @@ The extension needs a **licence key** to work. One key works on one computer. Ge
 
 | | |
 |---|---|
-| ![Dashboard](images/2-dashboard.png) | ![Replies in the customer's language](images/3-languages.png) |
-| ![Business info](images/4-business.png) | ![Knowledge base](images/5-knowledge.png) |
-| ![Quick replies](images/6-quick-replies.png) | ![Customers](images/7-customers.png) |
+| ![WhatsApp auto reply dashboard](docs/img/whatsapp-auto-reply-dashboard.png) | ![WhatsApp AI chatbot replying in Roman Urdu, English and Arabic](docs/img/whatsapp-ai-chatbot-any-language.png) |
+| ![Business info for the WhatsApp AI](docs/img/whatsapp-ai-business-info.png) | ![WhatsApp AI knowledge base](docs/img/whatsapp-ai-knowledge-base.png) |
+| ![WhatsApp quick replies with files](docs/img/whatsapp-quick-replies-with-files.png) | ![WhatsApp AI customer memory](docs/img/whatsapp-ai-customer-memory.png) |
+
+All screenshots use demo data.
 
 ## Install step by step
 
@@ -97,7 +119,7 @@ When a customer writes, the AI's reply appears in the **Reply to check** panel a
 
 ## Update to a new version
 
-1. Download the new zip from [Releases](https://github.com/rameezimdad/WA-AI-Reply/releases).
+1. Download the new zip from [Releases](https://github.com/rameezimdad/whatsapp-ai-auto-reply-chrome-extension/releases).
 2. Extract it **into the same folder** as before and replace the old files.
 3. Open `chrome://extensions` and click the reload arrow on WA AI Reply.
 4. Reload the WhatsApp Web tab.
@@ -121,23 +143,32 @@ Open the **License** page and press **Release** to free the key from this comput
 
 ## FAQ
 
-**How do I auto reply on WhatsApp Web with AI?**
-Install WA AI Reply, activate your licence key, add an AI key and your business info, then open WhatsApp Web and turn AI Reply on. The AI writes a reply to every new customer message and you press Send.
+**How do I auto reply to WhatsApp messages with AI?**
+Install WA AI Reply in Chrome, activate your licence key, add an AI key and your business info, then open WhatsApp Web and turn AI Reply on. The AI writes a reply to each new customer message and you press Send.
+
+**Can I use ChatGPT for WhatsApp auto reply?**
+Yes. Pick ChatGPT in AI engine and paste your OpenAI API key. Claude, Gemini and Grok work the same way.
+
+**Does it work with WhatsApp Business?**
+Yes. It works with any account you open in WhatsApp Web, including WhatsApp Business accounts.
+
+**Is it a WhatsApp AI chatbot or AI agent?**
+It works like an AI agent for your WhatsApp: it answers from your business info and knowledge base, remembers each customer, takes orders and can check live data through MCP tools. By default you approve every reply before it goes out.
 
 **Does it send messages without me?**
-No. Every reply waits in the review panel until you press Send. Only the quick replies you choose can go out on their own, and only to the numbers you list.
-
-**Which AI does it use?**
-Your choice: Claude, ChatGPT, Gemini or Grok, with your own API key. Gemini has a free tier.
+Not by default. Every AI reply waits in the review panel until you press Send. Saved quick replies can go by themselves only to the numbers you list.
 
 **Can it reply in Urdu or Roman Urdu?**
 Yes. It replies in the language the customer writes in, or in the language you set for that customer.
 
+**Can I use Gemini for free?**
+Google gives a free tier for Gemini API keys at https://aistudio.google.com/apikey. The extension itself needs a paid licence key.
+
 **Is my chat data sold or stored on your server?**
 No. Settings, chats and customer notes stay in your browser. Messages go only to the AI provider you picked. The licence server sees only your licence key and a random device code. Read the [privacy policy](https://license.rameezscripts.com/privacy/).
 
-**Does it work on WhatsApp Business?**
-It works with any account you open in WhatsApp Web, including WhatsApp Business accounts.
+**How do I install a Chrome extension from a zip file?**
+Extract the zip to a folder, open `chrome://extensions`, turn on Developer mode, click **Load unpacked** and select the folder that has `manifest.json` inside.
 
 **Can I use one key on two computers?**
 No. One key works on one computer. Release it on the License page to move it.
@@ -148,7 +179,7 @@ WA AI Reply is not made by, or connected with, WhatsApp or Meta. It is an unoffi
 
 ## Let's Work Together
 
-Need a licence key, a custom feature or a custom software for your business?
+Need a licence key, a custom feature or custom software for your business?
 
 - WhatsApp: https://wa.me/923435347417
 - Email: Contact@rameezscripts.com

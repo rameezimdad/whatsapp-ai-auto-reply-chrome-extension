@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rameezimdad.github.io/whatsapp-ai-auto-reply-chrome-extension/sitemap.xml
