@@ -4,7 +4,7 @@
 
 Built for shops, clinics, restaurants, online stores, salons, property dealers, travel agents and any business that answers the same customer questions on WhatsApp every day.
 
-[![Version](https://img.shields.io/badge/version-1.12.1-0074D9)](https://github.com/rameezimdad/whatsapp-ai-auto-reply-chrome-extension/releases/latest)
+[![Version](https://img.shields.io/badge/version-1.12.2-0074D9)](https://github.com/rameezimdad/whatsapp-ai-auto-reply-chrome-extension/releases/latest)
 [![Chrome](https://img.shields.io/badge/Chrome-Manifest%20V3-001f3f?logo=googlechrome&logoColor=white)](#install-step-by-step)
 [![Website](https://img.shields.io/badge/Website-WA%20AI%20Reply-0074D9)](https://rameezscripts.com/wa-ai-reply.php)
 [![WhatsApp](https://img.shields.io/badge/Licence%20key-WhatsApp-25D366?logo=whatsapp&logoColor=white)](https://wa.me/923435347417)
@@ -13,7 +13,7 @@ Built for shops, clinics, restaurants, online stores, salons, property dealers, 
 
 ## Download
 
-**[Download wa-ai-reply-v1.12.1.zip](https://github.com/rameezimdad/whatsapp-ai-auto-reply-chrome-extension/releases/latest/download/wa-ai-reply-v1.12.1.zip)** (Chrome, Edge, Brave on Windows, macOS, Linux)
+**[Download wa-ai-reply-v1.12.2.zip](https://github.com/rameezimdad/whatsapp-ai-auto-reply-chrome-extension/releases/latest/download/wa-ai-reply-v1.12.2.zip)** (Chrome, Edge, Brave on Windows, macOS, Linux)
 
 The extension needs a **licence key** to work. One key works on one computer. Get your key on WhatsApp: https://wa.me/923435347417
 
@@ -26,7 +26,8 @@ Website: https://rameezscripts.com/wa-ai-reply.php
 - [Screenshots](#screenshots)
 - [Install step by step](#install-step-by-step)
 - [Set up step by step](#set-up-step-by-step)
-- [Update to a new version](#update-to-a-new-version)
+- [Auto update (Windows)](#auto-update-windows)
+- [Update to a new version by hand](#update-to-a-new-version-by-hand)
 - [Troubleshooting](#troubleshooting)
 - [FAQ](#faq)
 
@@ -69,7 +70,7 @@ All screenshots use demo data.
 You need Google Chrome (or Microsoft Edge, Brave or any Chromium browser) on a computer. It does not work on phones.
 
 **Step 1 - Download the zip**
-Click the download link above. The file `wa-ai-reply-v1.12.1.zip` lands in your Downloads folder.
+Click the download link above. The file `wa-ai-reply-v1.12.2.zip` lands in your Downloads folder.
 
 **Step 2 - Extract it to a folder you will keep**
 Right-click the zip and choose **Extract All**. Move the extracted folder somewhere safe, for example `D:\WA AI Reply`.
@@ -117,7 +118,24 @@ Click **Open WhatsApp** (or go to https://web.whatsapp.com) and log in by scanni
 **Step 12 - Check and send**
 When a customer writes, the AI's reply appears in the **Reply to check** panel at the bottom left. Edit it if needed, then press **Send**, or **Skip** to leave it.
 
-## Update to a new version
+## Auto update (Windows)
+
+Turn it on once and every new version installs itself. Your settings, orders and customers stay.
+
+1. Open the WA AI Reply folder (for example `D:\WA AI Reply`), then the `updater` folder.
+2. Double-click **Turn on auto update.bat**. If Windows shows "Windows protected your PC", click **More info** and then **Run anyway**.
+3. A window says **Auto update is ON**. Close it.
+
+What happens after that:
+
+- Every 6 hours the computer checks this page for a new release, downloads the zip, checks its SHA256 and puts the new files in the same folder.
+- WA AI Reply reloads itself when no reply is waiting or being written and you have not used WhatsApp Web for a minute, then reloads the WhatsApp Web tab. Nothing is lost.
+- You can see the status in the extension under **Help > Health > Updates**.
+- To stop it, double-click **Turn off auto update.bat** in the same folder.
+
+Auto update comes with version 1.12.2. If you have an older version, update by hand once (below), then turn it on.
+
+## Update to a new version by hand
 
 1. Download the new zip from [Releases](https://github.com/rameezimdad/whatsapp-ai-auto-reply-chrome-extension/releases).
 2. Extract it **into the same folder** as before and replace the old files.
